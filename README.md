@@ -1,16 +1,118 @@
-# React + Vite
+To-Do App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple To-Do List application built using React and Vite. This project is designed to practice core React concepts with a clean and minimal user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Overview
 
-## React Compiler
+This project demonstrates the fundamentals of building a React application, including:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Component-based architecture
+* State management using React Hooks
+* Handling user input and events
+* Dynamic rendering using lists
+* Clean UI styling with CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+
+* **React** – UI library
+* **Vite** – Fast development build tool
+* **JavaScript (ES6+)** – Application logic
+* **CSS3** – Styling and layout
+* **React Hooks (useState)** – State management
+
+---
+
+Project Structure
+
+```
+react-todo-app-vite/
+│
+├── node_modules/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   ├── App.jsx        # Main application component
+│   ├── main.jsx       # React DOM entry point
+│   └── index.css      # Application styling
+├── index.html         # Root HTML file
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+Features Included
+
+To-Do App Functionality
+
+* Add new tasks using the input field
+* Display a list of added tasks
+* Delete tasks individually
+* Real-time UI updates using React state
+* Simple and clean user interface
+
+UI Features
+
+* Centered card-based layout
+* Clean and minimal design
+* Responsive layout for small screens
+* Styled buttons and input fields
+* Readable typography and spacing
+
+---
+
+Responsive Design
+
+The application adapts well to different screen sizes:
+
+* Centered layout using Flexbox
+* Works smoothly on mobile and desktop devices
+* Clean spacing and readable UI on all screen sizes
+
+---
+
+ How to Run Locally
+
+1. Clone the repository:
+2. 
+3. Navigate to the project folder:
+
+```
+cd todo-app
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+Learning Outcomes
+
+* Understanding React component structure
+* Using `useState` for state management
+* Handling user events in React
+* Rendering dynamic lists
+* Structuring a React project with Vite
+
+---
